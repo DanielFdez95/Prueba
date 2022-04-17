@@ -1,11 +1,10 @@
-""""
 from flask import Flask, request
 from pymessenger.bot import Bot
 
 app = Flask(__name__)
 
-ACCESS_TOKEN = "EAAJ9Jx5tHvoBAMssC7y3BTDja0rDEZBlWxZAH03Vi1fk2pFKW2XZBKwemSRadeisi8vZBJWcMIK2EFZBquMpHAXblCpWh9tyvkCgZBuMUTZAulmQMRYt6BtLI4ZCi9zj8LV99elccRh454mebjOkWBZCgxUmAbw9MIwfOZANOzcHcPKqiT9Ld7aPUZC"
-VERIFY_TOKEN = "MYTESTINGTOKEN"
+ACCESS_TOKEN = ""
+VERIFY_TOKEN = ""
 bot = Bot(ACCESS_TOKEN)
 
 
@@ -38,5 +37,3 @@ def hello():
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
-
-"""""
