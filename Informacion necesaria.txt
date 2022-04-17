@@ -1,0 +1,20 @@
+******************************** Pasos para el funcionamiento del login ***********************************
+1-) Registrate en https://developers.facebook.com/
+    Ir a la opcion del menu superior
+    Seleccionar la opcion Empezar
+
+2-) Crear una aplicacion
+3-) Elegir la opcion Inicio de sesion con facebook
+4-) Ir a Inicio de sesion con facebook a la parte de configuracion
+    -ir a URI de redireccionamiento de OAuth válidos y agregar la siguiente url https://(inserta la url de ngrok)/
+5-) Ir a la aplicacion flask, enciende el servidor con (py main.py) y encender ngrok (ngrok http 5000)
+6-) Ingresa a la url https://(inserta la url de ngrok)/
+
+Tambien podes guiarte de este video solo no olvides el paso 4
+
+******************************* info para configurar ngrok ********************************************
+https://youtu.be/YA_xMQOIZo0
+
+******************************* Info en la que me base para tratar de hacer el bot basico *****************************
+https://nickmccullum.com/build-facebook-bot-python-flask/
+
